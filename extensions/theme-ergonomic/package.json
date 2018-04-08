@@ -1,0 +1,38 @@
+{
+	"name": "theme-ergonomic",
+	"displayName": "Ergonomic themes",
+	"description": "Ergonomic themes",
+	"categories": [
+		"Themes"
+	],
+	"version": "0.0.1",
+	"publisher": "etarasenko",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ergonomic Light",
+				"uiTheme": "vs",
+				"path": "./themes/light_vs.json"
+			},
+			{
+				"label": "Ergonomic Light+",
+				"uiTheme": "vs",
+				"path": "./themes/light_plus.json"
+			},
+			{
+
+				"label": "Ergonomic Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark_vs.json"
+			},
+			{
+				"label": "Ergonomic Dark+",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark_plus.json"
+			}
+		]
+	}
+}
