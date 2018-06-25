@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Dark Default Colors",
+	"name": "Ergonomic Dark Colors",
 	"colors": {
 		"editor.background": "#1E1E1E",
 		"editor.foreground": "#D4D4D4",
@@ -10,6 +10,11 @@
 		"editor.selectionHighlightBackground": "#ADD6FF26",
 		"list.dropBackground": "#383B3D",
 		"activityBarBadge.background": "#007ACC",
-		"sideBarTitle.foreground": "#BBBBBB"
+		"sideBarTitle.foreground": "#BBBBBB",
+
+
+		"editor.lineHighlightBackground": "#2A2A2A",
+		"statusBar.background": "#404040",
+		"tab.activeBackground": "#3F3F46"
 	}
 }

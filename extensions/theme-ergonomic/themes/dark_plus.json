@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Dark+ (default dark)",
+	"name": "Ergonomic Dark+",
 	"include": "./dark_vs.json",
 	"tokenColors": [
 		{
@@ -11,7 +11,7 @@
 				"support.constant.handlebars"
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+				"foreground": "#9cdcfe"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#DCDCAA"
 			}
 		},
 		{
@@ -61,7 +61,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#DCDCAA"
 			}
 		},
 		{
@@ -79,7 +79,7 @@
 				"support.variable"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#D4D4D4"
 			}
 		},
 		{
@@ -88,7 +88,7 @@
 				"meta.object-literal.key"
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+				"foreground": "#b5cea8"
 			}
 		},
 		{
@@ -103,7 +103,7 @@
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#569cd6"
 			}
 		},
 		{
@@ -157,6 +157,62 @@
 			"scope": "constant.character.escape",
 			"settings": {
 				"foreground": "#d7ba7d"
+			}
+		},
+
+
+		{
+			"scope": [
+				"meta.function-call entity.name.function.js",
+				"variable entity.name.function.js"
+			],
+			"settings": {
+				"foreground": "#D4D4D4"
+			}
+		},
+		{
+			"scope": [
+				"punctuation",
+				"punctuation.separator.key-value",
+				"meta.brace.round",
+				"keyword.operator.type.annotation"
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.arithmetic",
+				"keyword.operator.assignment",
+				"keyword.operator.spread"
+			],
+			"settings": {
+				"foreground": "#d4d4d4"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.optional"
+			],
+			"settings": {
+				"foreground": "#DCDCAA"
+			}
+		},
+		{
+			"scope": [
+				"meta.link.inline.markdown string"
+			],
+			"settings": {
+				"foreground": "#569cd6"
+			}
+		},
+		{
+			"scope": [
+				"meta.link.inline.markdown markup.underline"
+			],
+			"settings": {
+				"foreground": "#808080"
 			}
 		}
 	]

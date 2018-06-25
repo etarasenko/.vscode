@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Light+ (default light)",
+	"name": "Ergonomic Light+",
 	"include": "./light_vs.json",
 	"tokenColors": [
 		{
