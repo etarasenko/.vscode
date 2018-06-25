@@ -1,0 +1,22 @@
+{
+    "editor.fontSize": 14,
+    "editor.lineHeight": 17,
+    "editor.occurrencesHighlight": false,
+    "editor.wordWrap": "on",
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": false,
+    "files.trimTrailingWhitespace": true,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible": false,
+    "[css]": {
+        "editor.tabSize": 2,
+    },
+    "[javascript]": {
+        "editor.tabSize": 2,
+    },
+    "[typescript]": {
+        "editor.tabSize": 2,
+    },
+    "workbench.colorTheme": "Ergonomic Dark+",
+}
